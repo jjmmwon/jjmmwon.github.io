@@ -1,0 +1,62 @@
+% Layout and fonts from the user-supplied RESUME.zip (Awesome-CV).
+% See TEMPLATE-NOTICE.txt for attribution. Personal content lives in sections/.
+\documentclass[11pt,a4paper]{awesome-cv}
+\usepackage{xeCJK}
+\usepackage{amsmath}
+\input{profile.generated.tex}
+
+\xeCJKsetup{CJKspace=true,CJKmath=true,CJKecglue={}}
+\setCJKmainfont[
+  Path=fonts/,
+  UprightFont=*-Regular.otf,
+  ItalicFont=*-Regular.otf,
+  BoldFont=*-Bold.otf,
+  BoldItalicFont=*-Bold.otf
+]{Pretendard}
+\setmainfont[
+  Path=fonts/,
+  UprightFont=*-Regular.ttf,
+  ItalicFont=*-Italic.ttf,
+  BoldFont=*-Bold.ttf,
+  BoldItalicFont=*-BoldItalic.ttf
+]{OpenSans}
+\geometry{left=1cm,top=.8cm,right=1cm,bottom=1cm,footskip=.5cm}
+\colorlet{awesome}{awesome-nephritis}
+\setbool{acvSectionColorHighlight}{true}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+\renewcommand{\acvHeaderAfterSocialSkip}{4mm}
+\urlstyle{same}
+\hypersetup{pdfauthor={\CVName},pdftitle={\CVName -- Curriculum Vitae}}
+
+\name{\CVName}{}
+\renewcommand{\acvHeaderNameDelim}{}
+\position{\CVRole}
+\address{\CVAffiliation}
+% Use full URLs from the shared profile (the template's \homepage adds http://).
+\extrainfo{%
+  \strut% Keep the template's social row valid when both contact fields are empty.
+  \ifdefempty{\CVEmail}{}{\href{mailto:\CVEmail}{\faEnvelope\acvHeaderIconSep\CVEmail}}%
+  \ifdefempty{\CVWebsite}{}{%
+    \ifdefempty{\CVEmail}{}{\acvHeaderSocialSep}%
+    \href{\CVWebsite}{\faLink\acvHeaderIconSep\CVWebsite}%
+  }%
+}
+
+% Retain publication categories within the supplied compact entry layout.
+\newcommand{\cvpubgroup}[1]{%
+  \par\addvspace{.5mm}%
+  {\bodyfont\fontsize{10pt}{12pt}\selectfont\bfseries\color{awesome}#1}\par\nopagebreak[4]
+}
+
+\begin{document}
+\makecvheader[C]
+\makecvfooter{}{\CVName\enspace |\enspace Curriculum Vitae}{\thepage}
+
+% Lead with education; retain the remaining CV order independently of the homepage.
+\input{sections/education.tex}
+\input{sections/publications.tex}
+\input{sections/experience.tex}
+\input{sections/academic-services.tex}
+\input{sections/scholarships.tex}
+% Skills remain available in sections/skills.tex for other CV variants.
+\end{document}

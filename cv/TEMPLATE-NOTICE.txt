@@ -1,0 +1,14 @@
+CV layout source: user-supplied RESUME.zip, Jiwon Choi's customized Awesome-CV.
+
+awesome-cv.cls is copied unchanged from the supplied archive. Its original
+copyright/author/license notice is retained: Claud D. Park, LPPL v1.3c.
+Upstream: https://github.com/posquit0/Awesome-CV
+
+Open Sans TTF and Pretendard Regular/Bold OTF fonts are copied from the archive.
+The unused Pretendard weights and the reference author's personal CV entries
+are not included. The project uses its own main.tex and sections/ content.
+
+Open Sans: Copyright 2020 The Open Sans Project Authors.
+Pretendard: Copyright 2023 Kil Hyung-jin (as embedded in the supplied font).
+Both font families use SIL Open Font License 1.1; copies of the upstream
+licenses are included in fonts/OpenSans-OFL.txt and fonts/Pretendard-OFL.txt.

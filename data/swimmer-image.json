@@ -1,0 +1,14 @@
+{
+  "asset": "public/images/swimmer.png",
+  "source": "User-provided codex-clipboard-392aeacb-a464-4033-b013-6ba12237eb1a.png",
+  "tool": "Built-in image_gen.imagegen",
+  "edit": "Transparent background extraction, then recolor the torso to match the existing peach skin tone",
+  "prompt": "Use case: precise-object-edit.\nAsset type: transparent swimmer illustration for a small scroll-position marker.\nInput image: the supplied transparent swimmer PNG is the edit target.\nPrimary request: recolor ONLY the bright red torso/swimsuit region to the same warm peach skin tone as the swimmer's existing arm and face, so the upper body looks bare and the entire torso and arm are skin-colored. Keep the original silhouette, raised arm, head, dark navy swim cap, orientation, proportions, wide composition, canvas framing, and transparent background unchanged. Match the flat illustration style. Do not add anatomy details, textures, outlines, water, scenery, clothes, gradients, text, or objects. Do not change the navy cap or existing peach arm. Preserve genuine alpha transparency and clean edges. Output the full swimmer as a transparent PNG.",
+  "darkMode": {
+    "asset": "public/images/swimmer-dark.png",
+    "source": "public/images/swimmer.png",
+    "tool": "Built-in image_gen.imagegen",
+    "edit": "Recolor the swimming cap to white for dark mode",
+    "prompt": "Use case: precise-object-edit.\nAsset type: dark-mode variant of an existing transparent swimmer illustration.\nInput image: the supplied PNG is the edit target.\nPrimary request: change ONLY the dark navy swimming cap to clean white (#FFFFFF). Preserve the peach skin color of the head, torso, and arm exactly. Preserve all shapes, the silhouette, pose, original left-facing orientation, proportions, current canvas dimensions and framing, and genuine transparent background. Do not add a border, halo, shadows, details, water, scenery, text, or any new object. The result must align with the original image when switched in the same small webpage position. Output a transparent PNG with a white cap and unchanged skin."
+  }
+}

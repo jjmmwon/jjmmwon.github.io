@@ -1,0 +1,13 @@
+node_modules/
+dist/
+cv/.build/
+public/cv.pdf
+public/.cv-*.pdf
+.DS_Store
+*.local
+/.tools/
+/.agents/
+/.codex/
+/.aws/
+.env
+.env.*

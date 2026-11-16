@@ -1,0 +1,272 @@
+{
+  "checkedOn": "2026-11-13",
+  "identity": {
+    "name": "Myeongwon Jung",
+    "github": "jjmmwon",
+    "evidence": "Authenticated GitHub profile; GhostUMAP paper links to the same GitHub account."
+  },
+  "basicInformation": {
+    "status": "verified from public institutional sources",
+    "sources": [
+      "https://idclab.skku.edu/members/",
+      "https://study.ieeevis.org/year/2024/program/paper_v-short-1065.html"
+    ],
+    "facts": [
+      "Myeongwon Jung",
+      "Ph.D. Student, Sungkyunkwan University",
+      "Interactive Data Computing Laboratory (IDCLab)",
+      "mw.jung@skku.edu"
+    ],
+    "websiteNote": "The contact web link points to https://jjmmwon.github.io/, the user's GitHub Pages homepage configured for deployment on 2026-11-16."
+  },
+  "education": {
+    "confirmed": [
+      "Ph.D. in Computer Science and Engineering, March 2025-present",
+      "M.S. in Artificial Intelligence, August 2023-February 2025",
+      "B.S. in Mathematics and Software, March 2017-August 2023",
+      "Advisor: Jaemin Jo"
+    ],
+    "userConfirmation": "Programs and dates supplied directly by the user on 2026-11-13.",
+    "institutionNote": "Sungkyunkwan University is used for all three degrees based on the existing affiliation and conversation context; the user did not specify a different institution.",
+    "sources": [
+      "https://idclab.skku.edu/members/",
+      "https://gsc.skku.edu/sw/research_news.do?article.offset=20&articleLimit=10&articleNo=204841&mode=view"
+    ],
+    "pending": [],
+    "dateSource": "User-provided month-level dates take precedence over incomplete LinkedIn search excerpts."
+  },
+  "researchExperience": {
+    "organization": "Interactive Data Computing Laboratory (IDCLab), Sungkyunkwan University",
+    "period": "March 2022-present",
+    "source": "IDCLab start date supplied directly by the user in this conversation.",
+    "summaryBasis": "Existing publications and discussed research, summarized at the visual analytics level as requested by the user. The research goal is to make complex data easier to understand through reliable, interactive exploration.",
+    "roleNote": "Lab membership is stated without inferring a paid position or formal research-assistant title."
+  },
+  "homepageBiography": {
+    "basis": "Education and lab history supplied by the user. The research paragraph and interests were supplied verbatim by the user on 2026-11-16. All interests use regular weight at the user's request.",
+    "interests": [
+      "Information Visualization",
+      "High-Dimensional Data Analysis",
+      "Scalable Visual Analytics",
+      "Dimensionality Reduction",
+      "Explainable AI"
+    ]
+  },
+  "homepageProfiles": {
+    "checkedOn": "2026-11-16",
+    "googleScholar": {
+      "url": "https://scholar.google.com/citations?user=HmtKrFoAAAAJ",
+      "source": "https://adscientificindex.com/scientist/myeongwon-jung/6127723/",
+      "evidence": "The index links to this Scholar profile for Myeongwon Jung at Sungkyunkwan University and lists Projection Ensemble, GhostUMAP, and GhostUMAP2. Direct Scholar retrieval returned HTTP 403."
+    },
+    "linkedIn": {
+      "url": "https://www.linkedin.com/in/%EB%AA%85%EC%9B%90-%EC%A0%95-07839b262/",
+      "evidence": "Public LinkedIn profile matches the user's Korean name, Sungkyunkwan University, IDCLab, and the GhostUMAP and Projection Ensemble publications."
+    }
+  },
+  "teachingAndScholarships": {
+    "status": "The 2023 IEEE PacificVis Student Volunteer role, grouped course TA appointments and the Spring 2026 SSIT lab-instructor appointment are included together in Academic Services on the CV and homepage. TA and lab instruction are separate entries. Scholarships include the KOSAF doctoral scholarship from Spring 2026 and Shimsan Scholarship from Spring 2025 through Spring 2026. Other lecturer and reviewer details remain blank pending user input.",
+    "confirmedServiceRoles": [
+      "Teaching Assistant",
+      "Teaching Assistant (Lab Instructor)",
+      "Student Volunteer",
+      "Lecturer",
+      "External Reviewer"
+    ],
+    "serviceEntries": [
+      {
+        "role": "Student Volunteer",
+        "institution": "2023 IEEE PacificVis Symposium",
+        "period": "2023",
+        "source": "The user supplied this activity and year on 2026-11-16. No month, duties or other activities from the reference screenshot are attributed to the user."
+      },
+      {
+        "role": "Teaching Assistant",
+        "institution": "Sungkyunkwan University",
+        "source": "Course names and semesters supplied directly by the user in this conversation.",
+        "courses": [
+          {
+            "name": "Information Visualization",
+            "originalName": "정보시각화",
+            "terms": [
+              "2024 Spring"
+            ]
+          },
+          {
+            "name": "Principles of Machine Learning",
+            "originalName": "기계학습원론",
+            "terms": [
+              "2024 Fall",
+              "2026 Spring",
+              "2026 Fall"
+            ]
+          },
+          {
+            "name": "Introduction to HCI",
+            "originalName": "HCI개론",
+            "terms": [
+              "2025 Fall"
+            ]
+          }
+        ],
+        "translationNote": "Course names are concise English translations of the supplied Korean names; no additional duties or achievements are inferred."
+      },
+      {
+        "role": "Teaching Assistant (Lab Instructor)",
+        "institution": "SSIT Program, Sungkyunkwan University",
+        "period": "Spring 2026",
+        "courses": [
+          {
+            "name": "Python Fundamentals and Data Visualization",
+            "terms": [
+              "Spring 2026"
+            ]
+          }
+        ],
+        "description": "Led hands-on lab sessions on Python programming and data visualization.",
+        "source": "Role, course, program, semester and duties supplied directly by the user on 2026-11-16. SSIT is retained without inferring the program's expanded name.",
+        "homepagePresentation": "A separate Teaching Assistant (Lab Instructor) entry under Academic Services, following the grouped Teaching Assistant entry. The screenshot informs the date/role layout and indented course block; the user's confirmed title, program and course are retained."
+      }
+    ],
+    "scholarshipEntries": [
+      {
+        "name": "STEM Doctoral Excellence Scholarship",
+        "originalName": "박사우수장학금(이공계)",
+        "institution": "Ministry of Science and ICT & Korea Student Aid Foundation",
+        "period": "2026",
+        "description": "National merit-based scholarship for STEM Ph.D. students",
+        "receiptSource": "The user confirmed receiving this scholarship since the first semester of 2026 on 2026-11-16.",
+        "checkedOn": "2026-11-16",
+        "programDetails": {
+          "purpose": "National support for outstanding doctoral students in science and engineering.",
+          "administeringBody": "Korea Student Aid Foundation (KOSAF)",
+          "responsibleMinistry": "Ministry of Science and ICT (MSIT)",
+          "durationPolicy": "Up to eight doctoral semesters, reduced by semesters already completed; continued support is evaluated each semester.",
+          "selectionAtSKKU": "Graduate-school selection considers academic records, research activities, social contributions and financial circumstances."
+        },
+        "sources": [
+          "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_24_01&ttab1=1",
+          "https://www.msit.go.kr/bbs/view.do?bbsSeqNo=100&mId=&mPid=&nttSeqNo=3186630&sCode=user",
+          "https://gsc.skku.edu/sw/notice_grad.do?articleNo=217651&mode=view"
+        ],
+        "wordingSource": "The user supplied the English title, joint issuer, display year (2026) and summary, and requested omitting monetary amounts on 2026-11-16.",
+        "scopeNote": "The CV and homepage use the user-provided wording and year without monetary amounts. The confirmed Spring 2026 start remains in receiptSource; no individual ranking, selection quota, certificate or end date is inferred."
+      },
+      {
+        "name": "Shimsan Scholarship",
+        "institution": "Sungkyunkwan University",
+        "period": "Spring 2025 – Spring 2026",
+        "receiptSource": "Scholarship name, institution and award period supplied directly by the user on 2026-11-16.",
+        "scopeNote": "Displayed as supplied, without inferring selection criteria, monetary amounts or other details."
+      }
+    ],
+    "templates": [
+      "cv/sections/academic-services.tex",
+      "cv/sections/scholarships.tex"
+    ]
+  },
+  "editorialStructure": {
+    "sectionOrder": [
+      "Education",
+      "Publications",
+      "Research Experience",
+      "Academic Services",
+      "Honors & Scholarships"
+    ],
+    "publicationGroups": [
+      "Journal Articles",
+      "Conference Short Papers",
+      "Preprints & Posters"
+    ],
+    "emphasis": "Lead with Education at the user's request; preserve the relative order of Publications, Research Experience, Academic Services, and Honors & Scholarships independently of the homepage layout.",
+    "skillsNote": "Omit the standalone Skills section from this research-focused CV. The existing technical-skills source is retained for other variants; no spoken-language section is added.",
+    "references": [
+      {
+        "author": "Jiwon Choi",
+        "url": "https://www.jiwnchoi.me/",
+        "usedFor": "Research-focused narrative and consolidated academic-service roles."
+      },
+      {
+        "author": "Hyeon Jeon",
+        "file": "cv (1).pdf",
+        "usedFor": "Separate publication categories and grouped academic services."
+      },
+      {
+        "author": "Seokweon Jung",
+        "file": "SeokweonJung_CV.pdf",
+        "usedFor": "Clear research, publication, academic-service and award sections."
+      },
+      {
+        "author": "Kiroong Choe",
+        "file": "cv.pdf",
+        "usedFor": "Selective academic history and concise recognition entries."
+      }
+    ],
+    "referenceUse": "Reference documents inform organization only. Their activities, awards and other personal achievements are not attributed to Myeongwon Jung.",
+    "format": {
+      "source": "User-supplied RESUME.zip",
+      "class": "Awesome-CV (Jiwon Choi customization), preserved unchanged",
+      "fonts": [
+        "Open Sans",
+        "Pretendard"
+      ],
+      "layout": "Centered English name and contact header, green section accents, compact entries with dates on the right",
+      "contentPolicy": "Verified content and section order retained. No personal entries from reference materials were imported. User-supplied TA and SSIT lab-instructor appointments and the KOSAF doctoral scholarship are included; other unspecified services remain blank."
+    }
+  },
+  "publications": [
+    {
+      "title": "GhostUMAP2: Measuring and Analyzing (r,d)-Stability of UMAP",
+      "doi": "10.1109/TVCG.2025.3633894",
+      "sources": [
+        "https://experts.azregents.edu/en/publications/ghostumap2-measuring-and-analyzing-rd-stability-of-umap/",
+        "https://idclab.skku.edu/publications.html"
+      ],
+      "note": "TVCG 32(1), 353-362 is dated January 2026. The conference presentation was IEEE VIS 2025. The CV uses the issue year and explicitly retains the presentation year; the arXiv version is not counted separately."
+    },
+    {
+      "title": "GhostUMAP: Measuring Pointwise Instability in Dimensionality Reduction",
+      "doi": "10.1109/VIS55277.2024.00040",
+      "sources": [
+        "https://experts.arizona.edu/en/publications/ghostumap-measuring-pointwise-instability-in-dimensionality-reduc/"
+      ]
+    },
+    {
+      "title": "Projection Ensemble: Visualizing the Robust Structures of Multidimensional Projections",
+      "doi": "10.1109/VIS54172.2023.00018",
+      "sources": [
+        "https://pure.skku.edu/en/publications/projection-ensemble-visualizing-the-robust-structures-of-multidim/"
+      ]
+    },
+    {
+      "title": "GPUMAP: GPU-Accelerated Progressive Uniform Manifold Approximation and Projection",
+      "arxiv": "2611.06191",
+      "sources": [
+        "https://arxiv.org/abs/2611.06191",
+        "https://ieeevis.org/year/2026/program/content/4afcbbb0-a3ce-484f-8f11-a36fe40b28f6/",
+        "https://mobile.ieeevis.org/year/2026/program/content/?type=poster"
+      ],
+      "note": "Listed separately as a preprint/poster, not as a full peer-reviewed conference paper."
+    }
+  ],
+  "skills": {
+    "status": "research-code evidence with concise focus confirmed by the user on 2026-11-13",
+    "selected": [
+      "Python",
+      "C++",
+      "JavaScript",
+      "TypeScript",
+      "CUDA",
+      "WebGPU (WGSL)"
+    ],
+    "proficiency": "No expertise level or years of experience inferred.",
+    "sources": [
+      "https://github.com/jjmmwon/ghostumap2/blob/main/package.json",
+      "https://github.com/jjmmwon/ghostumap2/blob/main/pyproject.toml",
+      "https://github.com/jjmmwon/ghostumap2/tree/main/widget",
+      "/home/myeongwon/git/gpumap/core/README.md",
+      "/home/myeongwon/git/webgpumap/README.md",
+      "/home/myeongwon/git/webgpumap/package.json"
+    ]
+  }
+}

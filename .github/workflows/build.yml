@@ -1,0 +1,57 @@
+name: Build and deploy homepage and CV
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run setup:tex
+      - uses: actions/cache@v4
+        with:
+          path: .tools/tectonic-cache
+          key: tectonic-0.17.0-${{ runner.os }}-${{ hashFiles('cv/**/*.tex', 'cv/*.cls') }}
+          restore-keys: tectonic-0.17.0-${{ runner.os }}-
+      - run: npm test
+      - run: npm run build
+        env:
+          SITE_BASE: ${{ vars.SITE_BASE || '/' }}
+      - name: Upload homepage and compiled CV
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist/
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,25 @@
+{
+  "GhostUMAP2": {
+    "image": "images/publications/ghostumap2.png",
+    "alt": "Five GhostUMAP2 use cases showing original, ghost, and neighbor points in C. elegans, Fashion MNIST, and AG News projections",
+    "source": "User-provided attachment: UseCase (3).png"
+  },
+  "GhostUMAP": {
+    "image": "images/publications/ghostumap.png",
+    "alt": "Stable and unstable UMAP projections with the optimization trajectories of ghost points",
+    "source": "https://idclab.skku.edu/assets/GhostUMAP.pdf",
+    "figure": "Figure 1, page 1"
+  },
+  "Projection Ensemble": {
+    "image": "images/publications/ensemble.png",
+    "alt": "Robust structures extracted from multiple MNIST projections, alongside ground-truth labels",
+    "source": "https://idclab.skku.edu/assets/ProjectionEnsemble.pdf",
+    "figure": "Figure 1, page 1"
+  },
+  "GPUMAP": {
+    "image": "images/publications/gpumap.png",
+    "alt": "Progressive HIGGS data projections from GPUMAP compared with the completed standard UMAP projection",
+    "source": "https://arxiv.org/pdf/2611.06191",
+    "figure": "Figure 1, page 1"
+  }
+}
