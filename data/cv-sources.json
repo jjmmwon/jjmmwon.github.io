@@ -23,10 +23,10 @@
     "confirmed": [
       "Ph.D. in Computer Science and Engineering, March 2025-present",
       "M.S. in Artificial Intelligence, August 2023-February 2025",
-      "B.S. in Mathematics and Software, March 2017-August 2023",
+      "B.S. in Mathematics (primary major), with a double major in Computer Science and Engineering, March 2017-August 2023",
       "Advisor: Jaemin Jo"
     ],
-    "userConfirmation": "Programs and dates supplied directly by the user on 2026-11-13.",
+    "userConfirmation": "Programs and dates supplied directly by the user on 2026-11-13. The undergraduate primary major (Mathematics) and double major (Computer Science and Engineering) were clarified by the user on 2026-11-17.",
     "institutionNote": "Sungkyunkwan University is used for all three degrees based on the existing affiliation and conversation context; the user did not specify a different institution.",
     "sources": [
       "https://idclab.skku.edu/members/",
